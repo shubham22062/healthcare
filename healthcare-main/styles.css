@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dee1ef;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fefefe;
+    color: #000000;
+    padding-top: 1em;
+    border-bottom: #000000 0.30rem solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+}
+
+header a {
+    color: #0f0f0f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 1rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resource {
+    background: white;
+    flex: 1 1 calc(28% - 1rem); /* Adjusted for better spacing */
+    margin: 1rem;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:left;
+}
+
+.resource h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.resource-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em; /* Increased space below the image */
+    
+}
+
+.resource p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.resource ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource ul li {
+    margin: 10px 0;
+}
+
+.resource ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.resource ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 2em; /* Increased margin to accommodate the footer better */
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+}
+b{
+    font-size: medium;
+    color:blue;
+}
+
+.logout-button{
+    background-color: transparent;
+    border:none;
+    font-size:1.25rem ;
+    font-weight:700;
+}

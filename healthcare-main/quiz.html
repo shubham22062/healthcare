@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Health and Wellbeing</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="WELLNESS BUDDY LOGO.1.jpg">
+            <nav>
+                <ul>
+                    <!-- <li><a href="sdg.html">Home</a></li> -->
+                    <li><a href="Bmi.html">BMI Calculator</a></li>
+                    <li><a href="tips.html">Health Tips</a></li>
+                    <li><a href="resource.html">RESOURCES</a></li>
+                    <li><a href="about.html">About</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="quiz">
+            <div class="container">
+                <h2>Stress Management Quiz</h2>
+                <form id="quizForm">
+                    <div class="question">
+                        <p>1. How often do you feel overwhelmed by your responsibilities?</p>
+                        <label><input type="radio" name="q1" value="0"> Rarely</label><br>
+                        <label><input type="radio" name="q1" value="1"> Sometimes</label><br>
+                        <label><input type="radio" name="q1" value="2"> Often</label><br>
+                        <label><input type="radio" name="q1" value="3"> Always</label>
+                    </div>
+                    <div class="question">
+                        <p>2. How often do you take time to relax or do something you enjoy?</p>
+                        <label><input type="radio" name="q2" value="3"> Rarely</label><br>
+                        <label><input type="radio" name="q2" value="2"> Sometimes</label><br>
+                        <label><input type="radio" name="q2" value="1"> Often</label><br>
+                        <label><input type="radio" name="q2" value="0"> Always</label>
+                    </div>
+                    <div class="question">
+                        <p>3. How often do you feel anxious or worried about the future?</p>
+                        <label><input type="radio" name="q3" value="0"> Rarely</label><br>
+                        <label><input type="radio" name="q3" value="1"> Sometimes</label><br>
+                        <label><input type="radio" name="q3" value="2"> Often</label><br>
+                        <label><input type="radio" name="q3" value="3"> Always</label>
+                    </div>
+                    <div class="question">
+                        <p>4. How often do you have trouble sleeping because of stress?</p>
+                        <label><input type="radio" name="q4" value="0"> Rarely</label><br>
+                        <label><input type="radio" name="q4" value="1"> Sometimes</label><br>
+                        <label><input type="radio" name="q4" value="2"> Often</label><br>
+                        <label><input type="radio" name="q4" value="3"> Always</label>
+                    </div>
+                    <div class="question">
+                        <p>5. How often do you feel like you can't control the important things in your life?</p>
+                        <label><input type="radio" name="q5" value="0"> Rarely</label><br>
+                        <label><input type="radio" name="q5" value="1"> Sometimes</label><br>
+                        <label><input type="radio" name="q5" value="2"> Often</label><br>
+                        <label><input type="radio" name="q5" value="3"> Always</label>
+                    </div>
+                    <button type="button" id="submit-btn" class="btn" onclick="calculateScore()">Submit</button>
+                    <button type="button" class="btn" onclick="refreshQuiz()">Refresh</button>
+                </form>
+                <div id="quiz-result"></div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

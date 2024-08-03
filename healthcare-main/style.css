@@ -1,0 +1,497 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+   /* background-color: #5a706cdc;*/
+    color: #735c5c;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgAnJ_8IEqSQ9snarMmgoM_NNdee9tISFsLg&s);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom,center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fefefe;
+    color: #000000;
+    padding-top: 1em;
+    /* min-height: 8px; */
+    border-bottom: #000000 0.30rem solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.logo{
+    float: left;
+    width: 25%;
+    
+}
+header a {
+    color: #0f0f0f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+} 
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 1rem;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+
+} 
+main {
+    padding: 20px 0;
+    
+}
+main h2 {
+    color: #291b1b;
+    font-size: 220%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.tip{
+    margin-bottom: 2rem;
+    background: #ffffff;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    color: #131111;
+
+}
+.img1{
+    float: left;
+    padding: 2%;
+    margin-right: 5%;
+    width: 16%;
+    margin-left: 2%;
+}
+.img2{
+    float: left;
+    width: 16%;
+    padding: 4%;
+    margin-right: 3%;
+}
+.img3{
+    float: left;
+    width: 20%;
+    padding: 3%;
+    margin-right: 2%;
+}
+.img4{
+    float: left;
+    width: 19%;
+    margin-right: 3%;
+    padding: 3%;
+}
+.img5{
+    float: left;
+    margin: 3%;
+}
+.img6{
+    float: left;
+    width: 19%;
+    margin-right: 3%;
+    padding: 3%;
+}
+.img7{
+    float: left;
+    width: 19%;
+    margin-right: 3%;
+    padding: 3%;
+}
+
+bmi-body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgAnJ_8IEqSQ9snarMmgoM_NNdee9tISFsLg&s);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom,center;
+    display:flex;
+    justify-content:space-between;
+    /* align-items: center; */
+    padding:2%;
+    height: 100%;
+    margin:0; 
+}
+.aboutbmi{
+    color: #0a0a0a;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 58%;
+}
+.container2{
+    background-color:  #d1b7da;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 315px;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0a0a0a;
+    font-weight:bold;
+}
+.tag{
+    color: #000000;
+}
+
+.form-group {
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+select {
+    color: #888; /* Default placeholder color */
+}
+
+select option[value=""] {
+    color: #888; /* Placeholder color */
+}
+
+select:valid {
+    color: black; /* Selected option color */
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #2c0339;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-bottom:1rem;
+}
+form .question {
+    margin-bottom: 1.2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+button:hover {
+    background-color: #500aab;
+}
+
+footer {
+    background: #030303;
+    color: #fff;
+    text-align: center;
+    padding: 1.3rem 0;
+    margin-top: 1.2rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 64rem) {
+    .container {
+        width: 100%;
+        padding: 0 1.2rem;
+    }
+    
+    header nav {
+        float: none;
+        text-align: center;
+    }
+    
+    header h1, header ul {
+        float: none;
+        text-align: center;
+    }
+    
+    header li {
+        display: block;
+        padding: 0.8rem 0;
+    }
+}
+
+@media (max-width: 30rem) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+    
+    header a {
+        font-size: 0.9rem;
+    }
+    
+    button {
+        width: 100%;
+        padding: 0.95rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.sliderandnews {
+    display: flex;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.left {
+    align-items: left;
+    width: 60%;
+    height: 350px;
+}
+
+.right {
+    overflow-y: hidden;
+    width: 40%;
+    text-align: left;
+}
+
+.outerright {
+    width: 100%;
+    text-align: left;
+    animation: moveNews 10s linear infinite;
+}
+
+.innerright {
+    display: flex;
+    width: 90%;
+    margin-left: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.innerright p {
+    overflow: hidden;
+    margin: 0;
+    line-height: 1;
+}
+.innerright:hover {
+    background-color: #f9f9f9;
+}
+.innerright:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+.innerright .news {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.images {
+    margin-left:5rem;
+    width: 80%;
+    height: 120%;
+    border-radius: 8px;
+}
+
+@keyframes moveNews {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+.right {
+    overflow-y: hidden;
+    width: 40%;
+    text-align: left;
+    font-size: 25px;
+    color:black;
+    padding: 20px; /* Add padding for better visibility */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.innerright:hover {
+    background-color: #f9f9f9;
+    animation-play-state: paused;
+}
+
+.innerright .date {
+    margin: 0;
+    width: 20%;
+    background-color: rgb(53, 53, 212);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    .sliderandnews {
+        flex-direction: column;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .innerright {
+        width: 100%;
+    }
+}
+
+#hero{
+    padding-top:5rem;
+
+}
+p{
+    font-size: 1.2rem;
+}
+h3{
+    font-size:1.5rem;
+    color:#424242
+}
+
+/* Feature Section */
+#features {
+    padding: 50px 0;
+    border-radius: 10px;
+    margin-top: 20px; /* Adds some space above the section */
+}
+
+#features .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#features h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #291b1b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#features .feature {
+    background-color: #f7e9e9;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    color: #131111;
+}
+
+#features .feature:hover {
+    transform: translateY(-5px);
+}
+
+#features .feature h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+#features .feature p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+@media (min-width: 768px) {
+    #features .feature {
+        display: flex;
+        align-items: center;
+    }
+
+    #features .feature h3 {
+        flex: 1;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    #features .feature p {
+        flex: 3;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    #features .feature h3 {
+        text-align: center;
+    }
+
+    #features .feature p {
+        text-align: center;
+    }
+}
+
+
+
+.formcontainer {
+    
+    height:100vh;
+    width:100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 1rem;
+
+}
+#login-form, #registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem 5rem;
+    width:20em;
+}

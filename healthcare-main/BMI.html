@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <img class="logo" src="WELLNESS BUDDY LOGO.1.jpg">
+        
+            <nav>
+                <ul>
+                    <li><a href="sdg.html">Home</a></li>
+                    <li><a href="quiz.html">Stress Management Quiz</a></li>
+                    <li><a href="tips.html">Health Tips</a></li>
+                    <li><a href="resource.html">RESOURCES</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <bmi-body> 
+        <div class="aboutbmi">
+            <P>Body Mass Index (BMI) is a simple calculation used to assess whether a person has a healthy body weight for a given height. 
+                It is widely used as a screening tool to categorize individuals into different weight categories, which can help identify potential health risks associated with underweight, overweight, and obesity.</P>
+          
+          <h3>Risk associate with overweight</h3>
+          <P>#Heart Disease</P>
+          <P>#Type 2 Diabetes</P>
+          <P>#Joint Problems</P>
+          <P>#High Blood Pressure</P>
+
+          <h3>Risk associate with underweight</h3>
+          <P>#Nutritional Deficiencies</P>
+          <P>#Osteoporosis</P>
+          <P>#Weakened Immune System</P>
+          <P>#Fertility Issues</P>
+
+          
+        </div>
+        <div>
+            <div class="container2">
+            
+                <h1 class="tag">BMI Calculator</h1>
+                
+                <form id="bmiForm">
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="" disabled selected>Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age Group:</label>
+                        <select id="age" name="age" required>
+                            <option value="" disabled selected>Enter your Age</option>
+                            <option value="child">0-12</option>
+                            <option value="teen">13-19</option>
+                            <option value="adult">20-64</option>
+                            <option value="senior">65+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="height">Height (cm):</label>
+                        <input type="number" id="height" name="height" placeholder="Enter your height" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="weight">Weight (kg):</label>
+                        <input type="number" id="weight" name="weight" placeholder="Enter your weight" required>
+                    </div>
+                    <button type="button" onclick="calculateBMI()">Calculate</button>
+                    
+                    <button type="button" onclick="Refresh()">Refresh</button>
+
+                    <P>This BMI calculator is for informational purposes only. Consult a healthcare provider before making health decisions. </P>
+                </form>
+               
+                <div id="result"></div>
+            </div>
+            <script src="BMI.js"></script>
+        </div>
+        
+    </bmi-body>
+    
+</body>
+</html>

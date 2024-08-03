@@ -1,0 +1,100 @@
+body {
+    color: #271d1d;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgAnJ_8IEqSQ9snarMmgoM_NNdee9tISFsLg&s);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom,center;
+    margin:0;
+}
+
+.question {
+    margin-bottom: 2rem;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 105%;
+    color: #131111;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fefefe;
+    color: #000000;
+    padding-top: 1em;
+    /* min-height: 8px; */
+    border-bottom: #000000 0.30rem solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.logo{
+    float: left;
+    width: 25%;
+    
+}
+header a {
+    color: #0f0f0f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+} 
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 1rem;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+
+} 
+
+
+.btn {
+    background-color: #372c3e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:0.4rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #678968;
+}
+
+.btn.clicked {
+    background-color: #008CBA; /* Blue */
+}
+#quiz-result{
+    /* background-color:white; */
+    font-size: large;
+    font-weight:bold;
+    margin:3%;
+    /* padding:10px; */
+}
